@@ -1,0 +1,19 @@
+<section class="container">
+    <header class="header d-flex">
+        <h2 class="">Fazendas Cadastradas</h2>
+       
+    </header>
+    <div class="mural" *ngIf="listaFazendas.length > 0, else semPensamentos">
+        <div id="div1" *ngFor="let fazenda of listaFazendas">
+            <app-fazenda [fazenda]="fazenda"></app-fazenda>
+        </div>
+    </div>
+    <button routerLink="" class="botao">Voltar</button>
+</section>
+
+<ng-template #semPensamentos>
+    <div class="ff-inter sem-pensamentos">
+        <p>Ainda não há fazendas cadastradas!</p>
+    </div>
+    <button routerLink="" class="botao">Voltar</button>
+</ng-template>

@@ -1,0 +1,52 @@
+<section class="container editar-pensamentos ff-inter">
+    <header class="header">
+      <h2>Editar Dados</h2>
+    </header>
+    <form>
+      <label for="nome">Nome da Fazenda</label>
+      <input
+        type="textarea"
+        class="input"
+        id="nome"
+        name="nome"
+        placeholder="Digite o nome"
+      >
+      <label for="area">Área</label>
+      <input
+        type="text"
+        class="input"
+        id="area"
+        name="area"
+        placeholder="Digite a area em m²"
+      >
+      <label for="centroide">Centroide</label>
+      <input
+        type="text"
+        class="input"
+        id="centroide"
+        name="centroide"
+        placeholder="Digite o Centroide"
+      >
+      <label for="geometria">Geometria</label>
+      <input
+        type="text"
+        class="input"
+        id="geometria"
+        name="geometria"
+        placeholder="Digite a geometria"
+      >
+      <!-- <label for="id">Id</label>
+      <input
+        type="text"
+        class="input"
+        id="id"
+        name="id"
+        placeholder="Digite o id"
+      > -->
+      
+      <div class="acoes">
+        <button (click)="editarFazenda()"class="botao">Salvar</button>
+        <button routerLink="" class="botao">Cancelar</button>
+      </div>
+    </form>
+  </section>

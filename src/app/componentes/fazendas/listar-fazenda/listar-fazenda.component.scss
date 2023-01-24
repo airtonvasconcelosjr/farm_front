@@ -1,0 +1,81 @@
+*{
+    font-family:Arial;
+    font-weight: bold;
+    color: #1f6684;
+    text-align: center;
+    border: 210px #1f6684;
+}
+
+.header {
+    font-family: Arial;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    color: #1f6684;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+#div1{
+    background-color: white;
+    border: 3px solid;
+    border-color:rgb(148, 171, 235);
+   }
+
+span{
+	font-family: Arial;
+	font-size: 14px;
+	color: rgb(65, 64, 64);
+	font-weight:bold ;
+    
+}
+
+button {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	width: 80px;
+	height: 60px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+    margin-bottom: 55px;
+}
+
+button:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+
+button:active {
+	position:relative;
+	top:1px;
+}
+
+.mural {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin: 1rem 0 2rem;
+  }
+  
+  .d-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .sem-fazendas {
+    text-align: center;
+    padding: 2rem 0 5rem;
+  }

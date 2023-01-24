@@ -1,0 +1,43 @@
+<section class="container criar-pensamentos ff-inter">
+    <header class="header">
+      <h2>Adicione uma Fazenda</h2>
+    </header>
+    <form>
+      <span class="title" for="nome">NOME DA FAZENDA</span>
+      <input
+        type="textarea"
+        class="input"
+        id="nome"
+        name="nome"
+        placeholder="Digite o nome"
+      >
+      <span class="title" for="area">ÁREA</span>
+      <input
+        type="text"
+        class="input"
+        id="area"
+        name="area"
+        placeholder="Digite a area em m²"
+      >
+      <span class="title" for="centroide">CENTRÓIDE</span>
+      <input
+        type="text"
+        class="input"
+        id="centroide"
+        name="centroide"
+        placeholder="Digite o Centroide"
+      >
+      <span class="title" for="geometria">GEOMETRIA</span>
+      <input
+        type="text"
+        class="input"
+        id="geometria"
+        name="geometria"
+        placeholder="Digite a geometria"
+      >
+      <div class="acoes">
+        <button (click)="criarFazenda()"class="botao">Salvar</button>
+        <button routerLink="" class="botao">Cancelar</button>
+      </div>
+    </form>
+  </section>

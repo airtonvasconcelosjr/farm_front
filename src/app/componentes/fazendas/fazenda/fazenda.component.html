@@ -1,0 +1,16 @@
+<div class="pensamento ff-roboto-mono pensamento-p">
+    <p class="conteudo">{{ fazenda.nome }}</p>
+    <p class="conteudo">{{ fazenda.area }}</p>
+    <p class="conteudo">{{ fazenda.centroide }}</p>
+    <p class="conteudo">{{ fazenda.geometria }}</p>
+    <p class="conteudo">{{ fazenda.id }}</p>
+
+    <div class="acoes">
+        <button class="botao-editar" routerLink="/fazendas/editarFazenda/{{ fazenda.id }}">
+            <img src="/assets/imagens/icone-editar.png" alt="icone de editar">
+        </button>
+        <button class="botao-excluir" routerLink="/fazendas/excluirFazenda/{{ fazenda.id }}">
+            <img src="/assets/imagens/icone-excluir.png" alt="icone de excluir">
+        </button>
+    </div>
+</div>

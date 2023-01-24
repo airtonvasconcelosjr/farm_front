@@ -1,0 +1,46 @@
+{
+  "fazendas": [
+    {
+      "nome": "a",
+      "area": 1,
+      "centroide": 2,
+      "geometria": 150,
+      "id": 0
+    },
+    {
+      "nome": "b",
+      "area": 100,
+      "centroide": 12,
+      "geometria": 1150,
+      "id": 1
+    },
+    {
+      "nome": "estrela",
+      "area": 1000,
+      "centroide": 500,
+      "geometria": 255,
+      "id": 2
+    },
+    {
+      "nome": "",
+      "area": 1,
+      "centroide": 2,
+      "geometria": 3,
+      "id": 9
+    },
+    {
+      "nome": "",
+      "area": 1,
+      "centroide": 2,
+      "geometria": 3,
+      "id": 10
+    },
+    {
+      "nome": "",
+      "area": 0,
+      "centroide": 0,
+      "geometria": 0,
+      "id": 12
+    }
+  ]
+}
